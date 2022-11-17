@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "WeatherAPP",
-    "slug": "WeatherAPP",
-    "version": "1.0.0",
+    "name": "Weather",
+    "slug": "Weather",
+    "version": "1.5.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconcenter.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/websplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/iconcenter.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nav.chandra.WeatherAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
